@@ -1,8 +1,12 @@
-user_input = input("Enter numbers separated by spaces: ")
-arr = list(map(int, user_input.split()))
+import time
 
-user_alg = input("Enter \"i\" for Insertion Sort or \"m\" for Merge Sort or \"s\" for Selection Sort or \"b\" for Bubble Sort or \"h\" for Heap Sort: ")
-
+def measure_time(algorithm, arr):
+    start_time = time.time()
+    algorithm(arr)
+    end_time = time.time()
+    execution_time_ms = (end_time - start_time) * 1000
+    print(f"{algorithm.__name__} took {execution_time_ms:.3f} miliseconds to execute.")
+    print(f"Sorted array: {arr}")
 
 def Insertion_sort(arr):
     for i in range(1, len(arr)):
@@ -58,52 +62,52 @@ def BubbleSort(arr):
             if arr[j] > arr[j + 1]:
               arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
-
-n = len(arr)
-def heapify(arr, n, i):
-    largest = i
-    l = 2 * i + 1
-    r = 2 * i + 2
-  
-    if l < n and arr[i] < arr[l]:
-          largest = l
-  
-    if r < n and arr[largest] < arr[r]:
-          largest = r
-  
-    if largest != i:
-          arr[i], arr[largest] = arr[largest], arr[i]
-          heapify(arr, n, largest)
-
 def Heap_sort(arr):
-    n = len(arr)
+    def heapify(arr, n, i):
+        largest = i
+        l = 2 * i + 1
+        r = 2 * i + 2
+    
+        if l < n and arr[i] < arr[l]:
+            largest = l
+    
+        if r < n and arr[largest] < arr[r]:
+            largest = r
+    
+        if largest != i:
+            arr[i], arr[largest] = arr[largest], arr[i]
+            heapify(arr, n, largest)
 
+    n = len(arr)
     for i in range(n//2 - 1, -1, -1):
         heapify(arr, n, i)
         
     for i in range(n - 1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
-                
-if user_alg == "i":
-    Insertion_sort(arr)
-    print(arr)
 
-elif user_alg == "m":
-    Merge_sort(arr)
-    print(arr)
 
-elif user_alg == "s":
-    Selection_Sort(arr)
-    print(arr)
+try:
+    with open('numbers.txt', 'r') as file:
+        # Read numbers from the file and convert them into a list of integers
+        file_content = file.read()
+        arr = list(map(int, file_content.split()))
+    
+    # Ask the user which sorting algorithm to use
+    user_alg = input("Enter 'i' for Insertion Sort, 'm' for Merge Sort, 's' for Selection Sort, 'b' for Bubble Sort, or 'h' for Heap Sort: ")
 
-elif user_alg == "b":
-    BubbleSort(arr)
-    print(arr)
+    if user_alg == 'i':
+        measure_time(Insertion_sort, arr)
+    elif user_alg == 'm':
+        measure_time(Merge_sort, arr)
+    elif user_alg == 's':
+        measure_time(Selection_Sort, arr)
+    elif user_alg == 'b':
+        measure_time(BubbleSort, arr)
+    elif user_alg == 'h':
+        measure_time(Heap_sort, arr)
+    else:
+        print("Not a valid algorithm!!")
 
-elif user_alg == "h":
-    Heap_sort(arr)
-    print(arr)
-
-else:
-    print("Not a valid algorithm!!")
+except FileNotFoundError:
+    print("The file 'numbers.txt' was not found. Please ensure the file is in the correct location.")
