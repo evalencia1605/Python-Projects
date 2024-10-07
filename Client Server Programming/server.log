@@ -1,0 +1,56 @@
+[2024-10-07 12:09:35.112787] Server starting.
+[2024-10-07 12:09:35.114290] Server listening on port 6000.
+[2024-10-07 12:10:29.455489] Server starting.
+[2024-10-07 12:10:29.456451] Server listening on port 6000.
+[2024-10-07 12:13:37.426358] [client ('127.0.0.1', 61228)] Connection accepted.
+[2024-10-07 12:13:37.429350] [client ('127.0.0.1', 61228)] Quote sent.
+[2024-10-07 12:13:37.431342] [client ('127.0.0.1', 61228)] Client acknowledges quote
+[2024-10-07 12:13:37.432513] [client ('127.0.0.1', 61228)] Connection closed.
+[2024-10-07 12:21:48.384411] Server starting.
+[2024-10-07 12:21:48.385409] Server listening on port 6000.
+[2024-10-07 12:25:40.753541] Server starting.
+[2024-10-07 12:25:40.754534] Server listening on port 6000.
+[2024-10-07 12:27:01.349902] [client ('127.0.0.1', 61761)] Connection accepted.
+[2024-10-07 12:27:01.350899] [client ('127.0.0.1', 61761)] Quote sent.
+[2024-10-07 12:27:01.351898] [client ('127.0.0.1', 61761)] Client acknowledges quote
+[2024-10-07 12:27:01.352896] [client ('127.0.0.1', 61761)] Connection closed.
+[2024-10-07 12:28:34.711526] Server starting.
+[2024-10-07 12:28:34.712526] Server listening on port 6000.
+[2024-10-07 12:28:46.979350] [client ('127.0.0.1', 61790)] Connection accepted.
+[2024-10-07 12:28:46.980340] [client ('127.0.0.1', 61790)] Quote sent.
+[2024-10-07 12:28:46.982339] [client ('127.0.0.1', 61790)] Client acknowledges quote
+[2024-10-07 12:28:46.983328] [client ('127.0.0.1', 61790)] Connection closed.
+[2024-10-07 12:35:25.485276] Server starting.
+[2024-10-07 12:35:25.486274] Server listening on port 6000.
+[2024-10-07 12:35:37.159390] [client ('127.0.0.1', 62082)] Connection accepted.
+[2024-10-07 12:35:37.160387] [client ('127.0.0.1', 62082)] Quote sent.
+[2024-10-07 12:35:37.161385] [client ('127.0.0.1', 62082)] Client acknowledges quote
+[2024-10-07 12:35:37.162389] [client ('127.0.0.1', 62082)] Connection closed.
+[2024-10-07 12:41:15.288710] Server starting.
+[2024-10-07 12:41:15.289708] Server listening on port 6000.
+[2024-10-07 12:41:30.958081] [client ('127.0.0.1', 62294)] Connection accepted.
+[2024-10-07 12:41:30.959370] [client ('127.0.0.1', 62294)] Quote sent.
+[2024-10-07 12:41:30.961385] [client ('127.0.0.1', 62294)] Client acknowledges quote
+[2024-10-07 12:41:30.963365] [client ('127.0.0.1', 62294)] Connection closed.
+[2024-10-07 12:45:33.144733] [client ('127.0.0.1', 62568)] Connection accepted.
+[2024-10-07 12:45:33.145728] [client ('127.0.0.1', 62568)] Quote sent.
+[2024-10-07 12:45:33.146725] [client ('127.0.0.1', 62568)] Client acknowledges quote
+[2024-10-07 12:45:33.148718] [client ('127.0.0.1', 62568)] Connection closed.
+[2024-10-07 12:45:59.171880] [client ('127.0.0.1', 62575)] Connection accepted.
+[2024-10-07 12:45:59.173845] [client ('127.0.0.1', 62575)] Quote sent.
+[2024-10-07 12:45:59.174837] [client ('127.0.0.1', 62575)] Client acknowledges quote
+[2024-10-07 12:45:59.176833] [client ('127.0.0.1', 62575)] Connection closed.
+[2024-10-07 12:46:25.218745] [client ('127.0.0.1', 62583)] Connection accepted.
+[2024-10-07 12:46:25.219698] [client ('127.0.0.1', 62583)] Quote sent.
+[2024-10-07 12:46:25.221693] [client ('127.0.0.1', 62583)] Client acknowledges quote
+[2024-10-07 12:46:25.222688] [client ('127.0.0.1', 62583)] Connection closed.
+[2024-10-07 12:46:50.311224] [client ('127.0.0.1', 62590)] Connection accepted.
+[2024-10-07 12:46:50.312269] [client ('127.0.0.1', 62590)] Quote sent.
+[2024-10-07 12:46:50.313221] [client ('127.0.0.1', 62590)] Client acknowledges quote
+[2024-10-07 12:46:50.314221] [client ('127.0.0.1', 62590)] Connection closed.
+[2024-10-07 12:50:41.673219] Server starting.
+[2024-10-07 12:50:41.675200] Server listening on port 6000.
+[2024-10-07 12:50:53.127129] [client ('127.0.0.1', 62652)] Connection accepted.
+[2024-10-07 12:50:53.128069] [client ('127.0.0.1', 62652)] Quote sent.
+[2024-10-07 12:50:53.129066] [client ('127.0.0.1', 62652)] Client acknowledges quote
+[2024-10-07 12:50:53.130072] [client ('127.0.0.1', 62652)] Connection closed.
