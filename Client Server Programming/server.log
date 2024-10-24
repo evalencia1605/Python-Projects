@@ -68,3 +68,15 @@
 [2024-10-07 15:09:00.781629] [client ('127.0.0.1', 62133)] Connection closed.
 [2024-10-07 15:09:45.037005] Server shutting down.
 [2024-10-07 15:09:45.038026] Server socket closed
+[2024-10-09 14:33:03.541393] Server starting.
+[2024-10-09 14:33:03.542897] Server listening on port 6000.
+[2024-10-09 14:33:22.208944] [client ('127.0.0.1', 61229)] Connection accepted.
+[2024-10-09 14:33:22.208944] [client ('127.0.0.1', 61229)] Quote sent.
+[2024-10-09 14:33:22.211890] [client ('127.0.0.1', 61229)] Client acknowledges quote
+[2024-10-09 14:33:22.211890] [client ('127.0.0.1', 61229)] Connection closed.
+[2024-10-09 14:34:29.174272] [client ('127.0.0.1', 61269)] Connection accepted.
+[2024-10-09 14:34:29.182322] [client ('127.0.0.1', 61269)] Quote sent.
+[2024-10-09 14:34:29.182322] [client ('127.0.0.1', 61269)] Client acknowledges quote
+[2024-10-09 14:34:29.182322] [client ('127.0.0.1', 61269)] Connection closed.
+[2024-10-09 14:38:37.449829] Server shutting down.
+[2024-10-09 14:38:37.449829] Server socket closed
